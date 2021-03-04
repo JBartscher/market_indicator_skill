@@ -6,7 +6,7 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 
-import ilk.MayorateModPlugin;
+import ilk.MarketInsightModPlugin;
 import ilk.world.systems.RashtGenerator;
 import ilk.world.utils.CommissionEffects;
 
@@ -18,7 +18,7 @@ public class MayorateGenerator implements SectorGeneratorPlugin {
     new RashtGenerator().generate(sector);
 
     // only do the following if not in nexerelin
-    if (!MayorateModPlugin.getIsExerelin()) {
+    if (!MarketInsightModPlugin.getIsExerelin()) {
       // add forgiveness script to avoid rep decay on mayorate commission from being
       // hostile with pirates
       sector.addScript(new CommissionEffects());

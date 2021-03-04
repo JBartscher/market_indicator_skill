@@ -14,7 +14,7 @@ import com.fs.starfarer.api.impl.campaign.terrain.BaseRingTerrain;
 
 import org.apache.log4j.Logger;
 
-import ilk.MayorateModPlugin;
+import ilk.MarketInsightModPlugin;
 import ilk.world.utils.BountySpawner;
 
 public class RashtGenerator implements SectorGeneratorPlugin {
@@ -110,7 +110,7 @@ public class RashtGenerator implements SectorGeneratorPlugin {
     system.autogenerateHyperspaceJumpPoints(true, true);
 
     // only do the following if not in exerelin corvus mode
-    if (!MayorateModPlugin.getIsExerelin()) {
+    if (!MarketInsightModPlugin.getIsExerelin()) {
       // start occasional bounties against mayorate enemies so players can more easily
       // level up their mayorate rep
       logger.info("Starting Rasht bounty generator");

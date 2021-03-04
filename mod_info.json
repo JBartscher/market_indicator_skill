@@ -1,10 +1,10 @@
 {
-  "id":"mayorate",
-	"name":"The Mayorate",
-	"author":"kazi",
-	"version":"1.0.0",
-	"description":"<< Requires LazyLib and GraphicsLib >> The Mayorate adds... the Mayorate (and all of their associated stuff).",
+  "id":"market_indicators",
+	"name":"Market Indicators",
+	"author":"Lllmp",
+	"version":"0.0.1",
+	"description":"",
     "gameVersion":"0.9.1a",
 	"modPlugin":"ilk.MayorateModPlugin",
-	"jars": ["mayorate.jar"]
+	"jars": ["market_indicator_skill.jar"]
 }
